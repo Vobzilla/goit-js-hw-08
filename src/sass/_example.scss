@@ -26,3 +26,25 @@
   background-size: cover;
   background-position: center;
 }
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 80px;
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 80px;
+  padding-left: 40px;
+}
+
+.feedback-form label {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
